@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <header className='p-10 py-48 bg-slate-500 lg:bg-hero-pattern flex flex-col justify-start items-start  bg-cover bg-center  text-white'>
-        <div id="cont" className=' p-10 ml-auto lg:ml-52 bg-slate-500 opacity-60 text-center lg:text-start'>
+        <div id="cont" className=' p-10 ml-auto lg:ml-52 bg-slate-500 opacity-100 lg:opacity-60 text-center lg:text-start'>
           <h1 className='text-6xl font-extrabold mb-8 text-white '>Webtor</h1>
           <p>Build your ultimate Frontend experience</p>
         </div>
