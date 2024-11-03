@@ -9,7 +9,7 @@ const Navbar = () => {
         <li className='text-2xl'><Link to="/">Webtor</Link></li>
         
           <ul className="flex justify-center flex-row items-center">
-            <li className='mx-3 '><Link to="/Links">Links</Link></li>
+            <li className='mx-3 inline lg:hidden'><Link to="/Links">Links</Link></li>
             <li className='mx-3 hidden lg:inline'><Link to="/about">About</Link></li>
             <li className='mx-3 hidden lg:inline'><Link to="/Contact">Contact</Link></li>
 
